@@ -24,5 +24,14 @@
     <ClCompile Include="zad3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="primer_ptp_izbegnut_deadlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zad4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zad5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

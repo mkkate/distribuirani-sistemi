@@ -1,10 +1,14 @@
+---------------Point-to-point komunikacija---------------
+
 zad1. Napisati program koji uzima podatke od nultog procesa i šalje ih svim
 drugim procesima tako što proces i treba da primi podatke i pošalje ih procesu
 i+1, sve dok se ne stigne do poslednjeg procesa. Unos podataka se završava
 nakon što se prenese negativna vrednost podatka.
 
+
 zad2. Napisati program koji nalazi sumu n celih brojeva koriscenjem ptp
 komunikacije tako da svaki proces učestvuje u sumiranju.
+
 
 zad3. Napisati MPI program koji izračunava sumu N celih brojeva (N je
 stepen 2) korišćenjem Point-to-point komunikacije.
@@ -17,3 +21,14 @@ U sledećem koraku razmatraju se parovi procesa (P0, P2), (P4,
 P6),…, (Pp-4, Pp-2)pronalaze parcijalne sume i akumuliraju u
 (P0, P4,…, Pp-4). Postupak se ponavlja dok ne ostanu 2 procesa
 i rezultat se akumulira u P0.
+
+
+---------------Grupne (collective) operacije--------------
+
+zad4. Napisati MPI program koji nalazi minimalnu i maximalnu vrednost zadate
+promenljive za N procesa kao i identifikatore procesa koji sadrže te vrednosti.
+
+
+zad5. Svaki od N procesa sadrži 30 realnih brojeva. Napisati MPI
+program koji nalazi maksimalnu vrednost na svakoj od 30 lokacija, kao
+i identifikator procesa koji sadrži tu vrednost.
