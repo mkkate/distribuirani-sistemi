@@ -32,3 +32,12 @@ promenljive za N procesa kao i identifikatore procesa koji sadrže te vrednosti.
 zad5. Svaki od N procesa sadrži 30 realnih brojeva. Napisati MPI
 program koji nalazi maksimalnu vrednost na svakoj od 30 lokacija, kao
 i identifikator procesa koji sadrži tu vrednost.
+
+
+zad6. Napisati MPI program koji izračunava vrednost broja PI kao vrednost
+integrala funkcije f(x)=4/(1+x^2) na intervalu [0,1] .
+
+
+zad7. Napisati MPI program koji izračunava vrednost skalarnog proizvoda
+dva vektora dimenzije N. Pretpostaviti da je N deljivo sa brojem procesa.
+Vrednosti vektora a i b se učitavaju u procesu P0.
