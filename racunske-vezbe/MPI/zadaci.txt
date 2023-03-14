@@ -41,3 +41,21 @@ integrala funkcije f(x)=4/(1+x^2) na intervalu [0,1] .
 zad7. Napisati MPI program koji izračunava vrednost skalarnog proizvoda
 dva vektora dimenzije N. Pretpostaviti da je N deljivo sa brojem procesa.
 Vrednosti vektora a i b se učitavaju u procesu P0.
+
+
+zad8. Napisati MPI program koji pronalazi proizvod matrice Anxn i vektora
+bn. Matrica A i vektor b se inicijalizuju u procesu 0. Izračunavanje se
+obavlja tako što se svakom procesu distribuira po vrsta matrice A i ceo
+vektor b. Svi procesi učestvuju u izračunavanju. Rezultat se prikazuje u
+procesu 0.
+
+
+zad9. Napisati MPI program koji pronalazi i prikazuje minimalni neparan 
+broj sa zadatom osobinom i identifikator procesa koji ga sadrži. 
+Neparni brojevi se nalaze u intervalu [a,b](a i b su zadate konstante). 
+Osobina koju broj treba da poseduje je da je deljiv zadatom vrednošću x. 
+Prilikom ispitivanja (da li broj poseduje zadatu osobinu ili ne) svaki proces 
+generiše i ispituje odgovarajuće neparne brojeve na način prikazan na slici 
+(za primer broj_procesa=4 i a=3, b=31, x=5). 
+Konačne rezultate treba da prikaže proces koji sadrži najmanji broj takvih brojeva. 
+Zadatak rešiti korišćenjem grupnih operacija.
